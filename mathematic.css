@@ -1,0 +1,677 @@
+.frame{
+    position: relative;
+    width: 1300px;
+    height: 550px;
+    background: blueviolet;
+}
+.bottom{
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    background: crimson;
+    bottom: 10px;
+    left: 50%;
+    border-radius: 100%;
+}
+.bar{
+    position: absolute;
+    width: 5px;
+    height: 400px;
+    background: blue;
+}
+.bar1{
+    left: 56%;
+    bottom: 20px;
+}
+.bar10{
+    left: 51%;
+    bottom: 20px;
+}
+.button1{
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    background: black;
+    color: blanchedalmond;
+    right: 0;
+    top: 10px;
+    cursor: pointer;
+}
+.button2{
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    background: black;
+    color: blanchedalmond;
+    right: 0;
+    top: 50px;
+    cursor: pointer;
+}
+.button3{
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    background: black;
+    color: blanchedalmond;
+    right: 0;
+    top: 100px;
+    cursor: pointer;
+}
+.once{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+}
+.once01{
+    left: 720px;
+    top: 510px;
+}
+.once02{
+    left: 720px;
+    top: 485px;
+}
+.once03{
+    left: 720px;
+    top: 460px;
+}
+.once04{
+    left: 720px;
+    top: 435px;
+}
+.once05{
+    left: 720px;
+    top: 410px;
+}
+.tens{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background: blue;
+    right: 0;
+    color: white;
+    text-align: center;
+}
+.tens01{
+    top: 505px;
+    right: 625px;
+}
+.tens02{
+    top: 475px;
+    right: 625px;
+}
+.text{
+    position: absolute;
+    left: 500px;
+}
+.moveOnce1{
+    animation-name: oncemove1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes oncemove1{
+    from{
+        margin-top: 0;
+        margin-left: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: 385px;
+        margin-left: 720px;
+        opacity: 1;
+    }
+}
+.moveOnce2{
+    animation-name: oncemove2;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes oncemove2{
+    from{
+        margin-top: 0;
+        margin-left: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: 360px;
+        margin-left: 720px;
+        opacity: 1;
+    }
+}
+.moveOnce3{
+    animation-name: oncemove3;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes oncemove3{
+    from{
+        margin-top: 0;
+        margin-left: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: 335px;
+        margin-left: 720px;
+        opacity: 1;
+    }
+}
+.moveOnce4{
+    animation-name: oncemove4;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes oncemove4{
+    from{
+        margin-top: 0;
+        margin-left: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: 310px;
+        margin-left: 720px;
+        opacity: 1;
+    }
+}
+.moveOnce5{
+    animation-name: oncemove5;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes oncemove5{
+    from{
+        margin-top: 0;
+        margin-left: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: 285px;
+        margin-left: 720px;
+        opacity: 1;
+    }
+}
+.moveOnce6{
+    animation-name: oncemove6;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes oncemove6{
+    from{
+        margin-top: 0;
+        margin-left: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: 260px;
+        margin-left: 720px;
+        opacity: 1;
+    }
+}
+.moveOnce7{
+    animation-name: oncemove7;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes oncemove7{
+    from{
+        margin-top: 0;
+        margin-left: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: 235px;
+        margin-left: 720px;
+        opacity: 1;
+    }
+}
+.moveOnce8{
+    animation-name: oncemove8;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes oncemove8{
+    from{
+        margin-top: 0;
+        margin-left: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: 210px;
+        margin-left: 720px;
+        opacity: 1;
+    }
+}
+.moveOnce9{
+    animation-name: oncemove9;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes oncemove9{
+    from{
+        margin-top: 0;
+        margin-left: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: 185px;
+        margin-left: 720px;
+        opacity: 1;
+    }
+}
+.moveOnce10{
+    animation-name: oncemove10;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes oncemove10{
+    from{
+        margin-top: 0;
+        margin-left: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: 160px;
+        margin-left: 720px;
+        opacity: 1;
+    }
+}
+.moveOnceallback{
+    animation-name: oncemoveback;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes oncemoveback{
+    from{
+        margin-top: 400px;
+        margin-left: 720px;
+        opacity: 1;
+    }
+    to{
+        margin-top: 0;
+        margin-left: 0;
+        opacity: 1;
+    }
+}
+.moveOnce01back{
+    animation-name: oncemoveback1;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes oncemoveback1{
+    from{
+        margin-top: 0;
+        margin-left: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: -510px;
+        margin-left: -720px;
+        opacity: 1;
+    }
+}
+.moveOnce02back{
+    animation-name: oncemoveback2;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes oncemoveback2{
+    from{
+        margin-top: 0;
+        margin-left: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: -485px;
+        margin-left: -720px;
+        opacity: 1;
+    }
+}
+.moveOnce03back{
+    animation-name: oncemoveback3;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes oncemoveback3{
+    from{
+        margin-top: 0;
+        margin-left: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: -460px;
+        margin-left: -720px;
+        opacity: 1;
+    }
+}
+.moveOnce04back{
+    animation-name: oncemoveback4;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes oncemoveback4{
+    from{
+        margin-top: 0;
+        margin-left: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: -435px;
+        margin-left: -720px;
+        opacity: 1;
+    }
+}
+.moveOnce05back{
+    animation-name: oncemoveback5;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes oncemoveback5{
+    from{
+        margin-top: 0;
+        margin-left: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: -410px;
+        margin-left: -720px;
+        opacity: 1;
+    }
+}
+.moveTens1{
+    animation-name: tensmove1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes tensmove1{
+    from{
+        margin-top: 0;
+        margin-right: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: 445px;
+        margin-right: 625px;
+        opacity: 1;
+    }
+}
+.moveTens2{
+    animation-name: tensmove2;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes tensmove2{
+    from{
+        margin-top: 0;
+        margin-right: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: 415px;
+        margin-right: 625px;
+        opacity: 1;
+    }
+}
+.moveTens3{
+    animation-name: tensmove3;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes tensmove3{
+    from{
+        margin-top: 0;
+        margin-right: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: 385px;
+        margin-right: 625px;
+        opacity: 1;
+    }
+}
+.moveTens4{
+    animation-name: tensmove4;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes tensmove4{
+    from{
+        margin-top: 0;
+        margin-right: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: 355px;
+        margin-right: 625px;
+        opacity: 1;
+    }
+}
+.moveTens5{
+    animation-name: tensmove5;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes tensmove5{
+    from{
+        margin-top: 0;
+        margin-right: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: 325px;
+        margin-right: 625px;
+        opacity: 1;
+    }
+}
+.moveTens6{
+    animation-name: tensmove6;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes tensmove6{
+    from{
+        margin-top: 0;
+        margin-right: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: 295px;
+        margin-right: 625px;
+        opacity: 1;
+    }
+}
+.moveTens7{
+    animation-name: tensmove7;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes tensmove7{
+    from{
+        margin-top: 0;
+        margin-right: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: 265px;
+        margin-right: 625px;
+        opacity: 1;
+    }
+}
+.moveTens8{
+    animation-name: tensmove8;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes tensmove8{
+    from{
+        margin-top: 0;
+        margin-right: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: 235px;
+        margin-right: 625px;
+        opacity: 1;
+    }
+}
+.moveTens9{
+    animation-name: tensmove9;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes tensmove9{
+    from{
+        margin-top: 0;
+        margin-right: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: 205px;
+        margin-right: 625px;
+        opacity: 1;
+    }
+}
+.moveTens10{
+    animation-name: tensmove10;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes tensmove10{
+    from{
+        margin-top: 0;
+        margin-right: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: 175px;
+        margin-right: 625px;
+        opacity: 1;
+    }
+}
+.moveTens01{
+    animation-name: tensmove01;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes tensmove01{
+    from{
+        margin-top: 0;
+        margin-right: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: -505px;
+        margin-right: -625px;
+        opacity: 1;
+    }
+}
+.moveTens02{
+    animation-name: tensmove02;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes tensmove02{
+    from{
+        margin-top: 0;
+        margin-right: 0;
+        opacity: 1;
+    }
+    to{
+        margin-top: -475px;
+        margin-right: -625px;
+        opacity: 1;
+    }
+}
+.standardNo{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background: darkblue;
+    color: white;
+    text-align: center;
+    left: 30%;
+    font-size: 20px;
+}
+.input{
+    position: absolute;
+    left: 30%;
+    top: 40px;
+    background: cornflowerblue;
+}
+.cal{
+    position: absolute;
+    left: 27%;
+    top: 25px;
+    background: black;
+    color: white;
+    font-size: 20px;
+}
+.cal1{
+    left: 24%;
+}
+.ans{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background: darkblue;
+    color: white;
+    text-align: center;
+    left: 30%;
+    font-size: 20px;
+    top: 80px;
+    background: rgba(153, 205, 50, 0.808);
+}
+.answer{
+    position: absolute;
+    bottom: 1%;
+    left: 40%;
+}
+.shawAns{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background: rgb(212, 136, 14);
+    color: rgb(245, 11, 11);
+    font-size: 20px;
+    top: 40px;
+    left: 50%;
+    text-align: center;
+}
+.links{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background: rgba(222, 184, 135, 0.623);
+    bottom: 0;
+    right: 0;
+}

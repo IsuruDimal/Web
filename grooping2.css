@@ -1,0 +1,91 @@
+.frame{
+    position: relative;
+    width: 1500px;
+    height: 600px;
+    background: mediumorchid;
+}
+.header{
+    width: 100%;
+    height: 10%;
+    background: black;
+    position: absolute;
+    top: 0;
+    color: blanchedalmond;
+    text-align: center;
+}
+.text,.text2{
+    position: absolute;
+    color: blanchedalmond;
+}
+.text{
+    left: 0;
+    top: 0;
+}
+.text2{
+    left: 80%;
+    top: 500px;
+    font-size: 40px;
+    color: blue;
+}
+.body{
+    width: 100%;
+    height: 89%;
+    position: absolute;
+    bottom: 0;
+}
+.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8{
+    width: 17%;
+    height: 17%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 37%;
+}
+.img2{
+    top: 10%;
+    left: 42%;
+}
+.img3{
+    top: 30%;
+    left: 2%;
+}
+.img4{
+    top: 10%;
+    left: 22%;
+}
+.img5{
+    top: 10%;
+    left: 62%;
+}
+.img6{
+    top: 10%;
+    left: 82%;
+}
+.img7{
+    top: 30%;
+    left: 22%;
+}
+.img8{
+    top: 10%;
+    left: 2%;
+}
+
+.moveOrange{
+    animation-name: movea;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes movea{
+    from{
+        margin-left: 0;
+        margin-top: 0;
+        opacity: 1;
+    }
+    to{
+        margin-left: 200px;
+        margin-top: 350px;
+        opacity: 1;
+    }
+}

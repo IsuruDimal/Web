@@ -1,0 +1,132 @@
+
+.full_frame1{
+    position: relative;
+    width: 1500px;
+    height: 2000px;
+}
+
+.heading{
+    position: absolute;
+    width: 1500px;
+    height: 180px;
+    background-color:midnightblue;
+}
+
+.full_frame2{
+    position: absolute;
+    width: 1500px;
+    height: 1700px;
+    top:180px;
+}
+.middle{
+    top: 80px;
+}
+
+.full_frame2A{
+    position: absolute;
+    width: 1500px;
+    height: 300px;
+    top:50px;
+}
+
+.full_frame2B{
+    position: absolute;
+    width: 1500px;
+    height: 300px;
+    top:280px;
+   /* background-color: navajowhite;*/
+}
+.full_frame2C{
+    position: absolute;
+    width: 1500px;
+    height: 300px;
+    top:680px;
+    /*background-color:orchid;*/
+}
+.full_frame2D{
+    position: absolute;
+    width: 1500px;
+    height: 300px;
+    top:1080px;
+   /* background-color:peachpuff;*/
+}
+
+.sub_navigation{
+    position: absolute;
+    width: 1500px;
+    height: 300px;
+    top:1400px;
+}
+
+.link1{
+ padding-left: 300px;
+}
+
+
+
+.navigation{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 10%;
+    padding-left: 450px;
+}
+
+.img1{
+    position: absolute;
+    width: 1500px;
+    height: 2000px;
+}
+
+.logo{
+    height:180px;
+    width:200px;
+    padding-left: 100px;
+}
+
+.title1{
+    font-size: 52px;
+    font-family: forte;
+    font-weight: 700;
+    padding-left: 500px;
+    color:cornsilk;
+    position:absolute;
+    top: 10px;
+}
+.title2{
+    font-size: 52px;
+    font-family: forte;
+    font-weight: 650;
+    padding-left: 450px;
+    color:lightpink;
+    position:absolute;
+    top: 10px;
+}
+
+
+
+.description{
+    font-size: 24px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    padding-left:80px;
+    color:black;
+
+}
+
+.b1{
+    background-color:rgb(245, 11, 23);
+    border: solid crimson;
+    border-radius: 20px;
+
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 38px;
+    font-weight: 650;
+    position: relative;
+    color:black;
+    box-shadow : 0 8px 16px 0 black,   
+    0 6px 20px  0 rgba(0, 0, 0, 0.19); 
+  
+}
