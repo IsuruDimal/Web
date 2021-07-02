@@ -1,0 +1,43 @@
+<html ng-app="ngModule">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://code.angularjs.org/1.6.9/angular.js"></script>
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="registration.css">
+</head>
+<body ng-app = "ngModule" ng-controller = "project">
+    <div class="registerform"><h1 class="register">SIGN UP</h1></div> 
+    
+    <div class="main">
+    <form>
+     <div class="regno">
+    <h2 class="tag">Registerration Number </h2>
+    <input class="regno" type="text" ng-model = "input_regNo">
+     </div>
+
+     <div class="pw">
+     <h2 class="tag">Password</h2>
+     <input class="password" type="text" ng-model = "input_passWord">
+
+
+     </div>
+
+     <div class="sbtn">
+
+        <button type="submit"  class="submitbuton" ng-click = "logStuentsd()">Log Student</button>
+        <button type="submit"  class="submitbuton" ng-click = "logTeacher()">Log Teacher</button>
+        
+
+      </div>
+
+
+    </form>
+
+   
+
+
+    </div>
+</body>
+</html>

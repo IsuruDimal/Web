@@ -1,0 +1,55 @@
+<html ng-app="ngModule">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://code.angularjs.org/1.6.9/angular.js"></script>
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="registration.css">
+</head>
+<body ng-app = "ngModule" ng-controller = "project">
+    <div class="registerform"><h1 class="register">Students Registaration</h1></div> 
+    
+    <div class="main">
+    <form>
+        <div id="Name">
+            <h2 class="Name">Name</h2>
+            <input class="fname" type="text" ng-model = "name">
+    <div class="age">
+        <h2 class="tag">Age </h2>
+        <input class="agenum" type="text" ng-model="age">
+    </div>
+     <div class="regno">
+    <h2 class="tag">Registerration Number </h2>
+    <input class="regno" type="text" ng-model = "regNo">
+     </div>
+
+     <div class="pw">
+     <h2 class="tag">Password</h2>
+     <input class="password" type="text" ng-model = "passWord">
+
+
+     </div>
+     <div class="group">
+        <h2 class="tag">Group Number </h2>
+        <input class="groupno" type="number" ng-model="groupNo">
+     </div>
+
+     <div class="sbtn">
+
+        <button type="submit"  class="submitbuton" ng-click = "studentUpdate()">REGISTER</button>
+        <button type="submit"  class="submitbuton" ng-click = "logStuentsd()">Log Student</button>
+        <button type="submit"  class="submitbuton" ng-click = "logTeacher()">Log Teacher</button>
+        
+
+      </div>
+
+
+    </form>
+
+   
+
+
+    </div>
+</body>
+</html>

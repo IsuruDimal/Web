@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html ng-app="ngModule">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://code.angularjs.org/1.6.9/angular.js"></script>
+    <script src=mathematic.js></script>
+    <link rel="stylesheet" type="text/css" href="mathematic.css">
+</head>
+<body ng-app = "ngModule" ng-controller = "Mathematical">
+    <div class="frame">
+        <div class="bottom"></div>
+        <div class="bar bar1"></div>
+        <div class="bar bar10"></div>
+        <div class="button1" ng-click="clickOnce()">ONCES</div>
+        <div class="button2" ng-click="clickTens()">TENS</div>
+        <div class="button3" ng-click="moveOncetoTens()">1s TO 10s</div>
+        <div class="once once1 " ng-model="once1" id="imgOnce0">1</div>
+        <div class="once once2 " id="imgOnce1">1</div>
+        <div class="once once3 " id="imgOnce2">1</div>
+        <div class="once once4 " id="imgOnce3">1</div>
+        <div class="once once5 " id="imgOnce4">1</div>
+        <div class="once once6" id="imgOnce5">1</div>
+        <div class="once once7" id="imgOnce6">1</div>
+        <div class="once once8" id="imgOnce7">1</div>
+        <div class="once once9" id="imgOnce8">1</div>
+        <div class="once once10" id="imgOnce9">1</div>
+        <div class="once once01 "  id="imgOnce01">1</div>
+        <div class="once once02 " id="imgOnce02">1</div>
+        <div class="once once03 " id="imgOnce03">1</div>
+        <div class="once once04 " id="imgOnce04">1</div>
+        <div class="once once05 " id="imgOnce05">1</div>
+        <div class="tens tens01" id="imgTens01">10</div>
+        <div class="tens tens02" id="imgTens02">10</div>
+        <div class="tens tens1" id="imgTens1">10</div>
+        <div class="tens tens2" id="imgTens2">10</div>
+        <div class="tens tens3" id="imgTens3">10</div>
+        <div class="tens tens4" id="imgTens4">10</div>
+        <div class="tens tens5" id="imgTens5">10</div>
+        <div class="tens tens6" id="imgTens6">10</div>
+        <div class="tens tens7" id="imgTens7">10</div>
+        <div class="tens tens8" id="imgTens8">10</div>
+        <div class="tens tens9" id="imgTens9">10</div>
+        <div class="tens tens10" id="imgTens10">10</div>
+        <div class="standardNo">25</div>
+        <form>
+            <input type="text" name="number" class="input" ng-model="givenNum">
+        </form>
+        <button class="cal" ng-click = "answerplus()">+</button>
+        <button class="cal cal1" ng-click = "answerminus()">-</button>
+        <div class="ans">
+            <p class="answer">{{finalAnswer}}</p>
+        </div>
+        <div class="shawAns"><p class="answer2"></p></div>
+        <div class="links">
+            <p class="link1"></p><br>
+            <p class="link2"></p>
+        </div>
+    </div>
+</body>
+</html>
